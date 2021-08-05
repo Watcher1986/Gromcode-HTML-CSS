@@ -2,7 +2,8 @@
   color: green;
 }
 
-li {
+ul,
+ol {
   background-color: yellow;
 }
 
@@ -26,6 +27,6 @@ li.new {
   background-color: red;
 }
 
-.posted-today.new {
+.new.posted-today {
   background-color: pink;
 }
