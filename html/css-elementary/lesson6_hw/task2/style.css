@@ -13,7 +13,7 @@ ul span {
 }
 
 #special + li > span {
-  border: 3px solid black;
+  border: 3px solid red;
 }
 
 #special ~ li {
