@@ -2,7 +2,7 @@ li {
   margin-bottom: 16px;
 }
 
-[target='_blank'] {
+a[target='_blank'] {
   border: 2px solid black;
 }
 
@@ -10,18 +10,17 @@ li {
   border: 2px solid red;
 }
 
-[href$='.com'] {
+a[href$='.com'] {
   margin-left: 50px;
 }
-
-[lang|='en-'] {
+[lang|='en'] {
   font-size: 10px;
 }
 
-[href*='www'] {
+a[href*='www'] {
   color: green;
 }
 
-[title~='popular'] {
+a[title~='popular'] {
   font-size: 24px;
 }
