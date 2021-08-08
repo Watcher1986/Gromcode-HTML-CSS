@@ -1,5 +1,4 @@
 .box {
-  box-sizing: content-box;
   border: 8px solid black;
   margin: 16px;
   padding: 16px;
@@ -8,9 +7,11 @@
 }
 
 .box1 {
+  box-sizing: content-box;
   background-color: azure;
 }
 
 .box2 {
+  box-sizing: border-box;
   background-color: aquamarine;
 }
