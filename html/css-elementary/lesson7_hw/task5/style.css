@@ -22,7 +22,7 @@ input {
   border: 3px solid red;
 }
 
-.hello {
+.hello:first-child {
   background-color: white;
 }
 
@@ -31,22 +31,22 @@ input {
 }
 
 div p {
-  font: 25px;
+  font-size: 25px;
 }
 
-[type='text'] {
+input[type='text'] {
   background-color: gray;
 }
 
-div:nth-child(3) p {
+div:nth-of-type(3) {
   background-color: yellow;
 }
 
-div:nth-child(3) p:nth-child(2) {
-  border: 5px white;
+div p:nth-of-type(2) {
+  border: 5px solid white;
 }
 
-div:nth-child(3) em {
+div em {
   color: white;
   font-size: 20px;
 }
