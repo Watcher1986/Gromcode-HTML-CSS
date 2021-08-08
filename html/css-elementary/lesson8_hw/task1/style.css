@@ -1,3 +1,7 @@
+body {
+  background-color: antiquewhite;
+}
+
 .box {
   border: 8px solid black;
   margin: 16px;
