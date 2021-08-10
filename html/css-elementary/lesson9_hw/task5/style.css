@@ -1,26 +1,31 @@
-/* * {
+* {
   box-sizing: border-box;
-} */
+}
 
 .header {
   background-color: darkturquoise;
   height: 40px;
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 100;
 }
 
 .navigation {
   height: 40px;
+  float: left;
 }
 
+.nav-list {
+  margin: 0;
+}
 .nav-item {
   color: white;
   margin-left: 16px;
   float: left;
   display: block;
-  line-height: 5px;
-  /* display: inline-block; */
+  line-height: 40px;
 }
 
 .content {
