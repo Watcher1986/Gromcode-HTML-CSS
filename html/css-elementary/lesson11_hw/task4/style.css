@@ -4,7 +4,7 @@
 .text {
   position: relative;
   margin: 16px;
-  display: flex;
+  display: block;
   width: 116px;
   border-bottom: 1px dotted black;
 }
