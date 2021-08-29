@@ -2,8 +2,5 @@ div {
   margin: 16px;
 }
 .choose-gender {
-  display: grid;
-}
-label {
-  margin: 16px 0;
+  margin-left: 0px;
 }
