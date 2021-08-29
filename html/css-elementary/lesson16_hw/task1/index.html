@@ -28,14 +28,19 @@
       </div>
 
       <div class="choose-gender">
-        <label><input type="radio" name="gender" />Male</label>
-      </div>
-      <div class="choose-gender">
-        <label><input type="radio" name="gender" />Female</label>
-      </div>
+        <input id="gender__male" type="radio" name="gender" /><label
+          for="gender__male"
+          >Male</label
+        >
+        <input id="gender__female" type="radio" name="gender" /><label
+          for="gender__female"
+          >Female</label
+        >
 
-      <div class="choose-gender">
-        <label><input type="radio" name="gender" />Secret</label>
+        <input id="gender__secret" type="radio" name="gender" /><label
+          for="gender__secret"
+          >Secret</label
+        >
       </div>
       <div>
         <textarea
@@ -43,6 +48,7 @@
           placeholder="Write description..."
         ></textarea>
       </div>
+
       <div>
         <button type="submit">Submit</button>
       </div>
