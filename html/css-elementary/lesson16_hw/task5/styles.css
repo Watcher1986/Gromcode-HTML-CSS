@@ -1,9 +1,5 @@
-* {
-  box-sizing: border-box;
-}
 form {
-  display: flex;
-  flex-direction: column;
+  box-sizing: border-box;
   margin: 32px;
 }
 
