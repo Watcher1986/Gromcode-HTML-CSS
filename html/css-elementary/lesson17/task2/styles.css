@@ -16,7 +16,7 @@ th {
 
 td,
 th {
-  padding: 4px;
+  padding-right: 4px;
   text-align: right;
   line-height: 40px;
 }
@@ -26,7 +26,7 @@ th {
 }
 
 caption {
-  margin: 8px;
+  margin-bottom: 8px;
 }
 
 div {
