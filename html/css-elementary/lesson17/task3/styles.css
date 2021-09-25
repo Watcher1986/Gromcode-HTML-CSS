@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+table {
+  margin: 16px;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+
+.odd td:nth-child(even),
+.even td:nth-child(odd) {
+  background-color: black;
+}
+
+td:first-child:nth-child(n),
+td:last-child:nth-child(n),
+.first td:nth-child(n),
+.last td:nth-child(n) {
+  background-color: white;
+  border: white;
+}
