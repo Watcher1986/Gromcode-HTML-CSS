@@ -18,4 +18,30 @@ td,
 th {
   padding: 4px;
   text-align: right;
+  line-height: 40px;
+}
+
+th {
+  background-color: aqua;
+}
+
+caption {
+  margin: 8px;
+}
+
+div {
+  overflow-x: auto;
+}
+
+tfoot {
+  font-weight: 700;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: f2f2f2;
+}
+
+tbody > tr:hover {
+  background-color: #aaa;
+  color: white;
 }
