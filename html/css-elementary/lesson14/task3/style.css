@@ -1,0 +1,10 @@
+.rectangle {
+  background-color: rgb(15, 146, 59) !important;
+  width: 100px;
+  height: 100px;
+}
+
+.new.text::first-letter {
+  color: greenyellow;
+  font-size: 32px;
+}
