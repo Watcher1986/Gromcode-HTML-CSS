@@ -14,7 +14,7 @@
   line-height: 100px;
   margin-bottom: 16px;
   opacity: 0.5;
-  transition: width 2s, opacity 0.5s;
+  transition: width 1s, opacity 0.5s;
   /* transition-property: width, opacity; */
   /* transition-duration: 1s, 3s; */
 }
