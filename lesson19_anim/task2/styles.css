@@ -1,0 +1,50 @@
+.square {
+  width: 100px;
+  height: 100px;
+  margin: 12px;
+  background-color: teal;
+  position: absolute;
+  animation: move 2s;
+  /* animation-iteration-count: 3; */
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 3;
+}
+
+@keyframes move {
+  /* from {
+
+  }
+  to {
+
+  } */
+  0% {
+    left: 0;
+    right: 0;
+    background-color: yellow;
+  }
+  25% {
+    left: 300px;
+    top: 0;
+    background-color: tomato;
+  }
+  50% {
+    left: 300px;
+    top: 300px;
+    background-color: violet;
+  }
+  75% {
+    left: 0;
+    top: 300px;
+    background-color: blue;
+  }
+  100% {
+    left: 150px;
+    top: 150px;
+    background-color: cadetblue;
+  }
+}
+
+.square:hover {
+  background-color: yellow;
+}
