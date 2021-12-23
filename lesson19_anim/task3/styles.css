@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.spinner {
+  margin: auto;
+}
+
+.spinner-text {
+  font-family: monospace;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.rect {
+  width: 10px;
+  height: 4px;
+  position: relative;
+  border-radius: 2px;
+  background-color: #000;
+  animation: move alternate infinite 2s, blink linear infinite 2s;
+}
+
+@keyframes move {
+  from {
+    left: 0;
+    opacity: 1;
+  }
+  to {
+    left: 70px;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
