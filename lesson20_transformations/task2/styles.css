@@ -15,10 +15,11 @@ body {
   color: white;
   border-radius: 4px;
   border: none;
-  animation: spin infinite 1.5s linear;
+  animation: jump 0.4s 0.5s ease-in-out, spin 0.5s ease-in-out,
+    hide 1s 2s ease forwards;
 }
 
-/* @keyframes jump {
+@keyframes jump {
   0% {
     transform: translateY(0);
   }
@@ -28,7 +29,7 @@ body {
   100% {
     transform: translateY(0);
   }
-} */
+}
 
 @keyframes spin {
   from {
@@ -38,7 +39,7 @@ body {
     transform: rotate(360deg);
   }
 }
-/* 
+
 @keyframes hide {
   from {
     transform: translateX(0);
@@ -46,4 +47,4 @@ body {
   to {
     transform: translateX(2000px);
   }
-} */
+}
