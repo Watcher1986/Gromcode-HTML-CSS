@@ -1,0 +1,41 @@
+.navigation {
+  background-color: #fa8;
+  min-height: 200px;
+  display: flex;
+  flex-grow: 1;
+}
+
+.products-list {
+  background-color: #8af;
+  min-height: 200px;
+  display: flex;
+  flex-grow: 1;
+}
+
+.news {
+  background-color: #a18;
+  min-height: 200px;
+  display: flex;
+  flex-grow: 1;
+}
+
+span {
+  margin: auto;
+  background-color: beige;
+  padding: 4px;
+  border-radius: 4px;
+  text-transform: lowercase;
+}
+
+@media screen and (min-width: 600px) {
+  .products {
+    display: flex;
+    flex-grow: 2;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .content {
+    display: flex;
+  }
+}
