@@ -1,27 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
 .navigation {
-  background-color: #fa8;
+  background-color: #ff7f50;
   min-height: 200px;
   display: flex;
   flex-grow: 1;
+  flex-basis: 0;
 }
 
 .products-list {
-  background-color: #8af;
+  background-color: #006400;
   min-height: 200px;
   display: flex;
   flex-grow: 1;
+  flex-basis: 0;
 }
 
 .news {
-  background-color: #a18;
+  background-color: #0ff;
   min-height: 200px;
   display: flex;
   flex-grow: 1;
+  flex-basis: 0;
+  min-width: 33.3339%;
 }
 
 span {
   margin: auto;
-  background-color: beige;
+  background-color: #faebd7;
   padding: 4px;
   border-radius: 4px;
   text-transform: lowercase;
