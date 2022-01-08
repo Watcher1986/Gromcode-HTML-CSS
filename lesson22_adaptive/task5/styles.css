@@ -74,6 +74,7 @@ body {
   background-color: #e5e5e5;
   padding: 0.5em;
   text-align: center;
+  margin-bottom: auto;
 }
 
 img {
@@ -107,6 +108,7 @@ img {
   .section {
     width: 60%;
     flex-basis: 720px;
+    margin-bottom: 100px;
   }
   .news {
     min-width: 20%;
