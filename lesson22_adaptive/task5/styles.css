@@ -108,7 +108,7 @@ img {
   .section {
     width: 60%;
     flex-basis: 720px;
-    margin-bottom: 80px;
+    margin-bottom: 75px;
   }
   .news {
     min-width: 20%;
